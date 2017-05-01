@@ -1,0 +1,39 @@
+<head>
+  <title>formullaire</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div>
+  <a href="index.html">Home page</a>
+  <form method="post" action="traitement.php">
+  <fieldset>
+       <legend>Vos coordonnees</legend> <!-- Titre du fieldset -->
+       <label for="nom">Quel est votre nom ?</label>
+       <input type="text" name="nom" id="nom" />
+       <label for="prenom">Quel est votre prenom ?</label>
+       <input type="text" name="prenom" id="prenom" />
+   </fieldset>
+
+   <fieldset>
+     <legend>Dite ce qui n est pas bien sur ce site</legend>
+     <select name="Dite ce qui n est pas bien sur ce site" id="Dite ce qui n est pas bien sur ce site">
+         <option value="le contenu">le contenu</option>
+         <option value="le fond">le fond</option>
+         <option value="autre">autre</option>
+      <legend>Si "Autre", veuillez préciser :</legend>
+       <p>
+          <legend>Si "Autre", veuillez préciser :</legend>
+           <label for="precisions">Si "Autre", veuillez préciser :</label>
+           <input type="text" name="precisions" id="precisions" />
+       </p>
+
+   </fieldset>
+   <fieldset>
+        <label for="amelioration">Comment pourai-je l'ammeliorer ?</label>
+        <input type="text" name="amelioration"" id="amelioration"" />
+    </fieldset>
+   <input type="submit" value="Envoyer" />
+  </div>
+</body>
