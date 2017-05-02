@@ -3,42 +3,44 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
-    background-size: 1550px 780px;
+    /*background-size: 1550px 780px;*/
+    background-color: #CFFFFF;
+    background-position: center;
 }
 h1 {
-    margin-left: 440px;
-    margin-top: 250px;
+    /*margin-left: 440px;
+     margin-top: 250px;*/
     color: black
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-left: 440px;
+    /*margin-left: 440px;*/
     margin-top: 20px;
     color: black
 }
 a {
-    margin-left: 460;
+    /*margin-left: 460;*/
     font-family: Arial, Helvetica, sans-serif;
     color: black
 }
 img {
-    margin-left: 440px;
+    /*margin-left: 440px;*/
 }
 iframe {
-    margin-left: 440px;
+    /*margin-left: 440px;*/
 }
 ul {
-  margin-left: 460px;
+  /*margin-left: 460px;*/
   font-family: Arial, Helvetica, sans-serif;
   color: black
 }
 
 div{
-  margin-right: 440px;
+  margin-right: 490px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  margin-left: 440px;
+  margin-left: 490px;
   margin-top: 250px;
   color: black
 }
